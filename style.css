@@ -124,4 +124,10 @@ footer {
     section{
         margin: 20px 15px;
     }
+
+    div img{
+        float: none;
+        display: block;
+        margin:0 auto 15px;
+    }
 }
