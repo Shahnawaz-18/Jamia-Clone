@@ -13,8 +13,8 @@ body{
 }
 
 header{
-    background-color: #003366;
-    color: white;
+    background-color: #ffffff;
+    color: #333;
     text-align: center;
     padding: 30px 20px;
     font-size: 1.1rem;
@@ -27,12 +27,13 @@ header{
     font-size: 1.4rem;
     padding-bottom: 5px;
     height: auto;
-    width: auto;
+    width: 60%;
+    mix-blend-mode: multiply;
 }
 
 nav{
     background-color:#0059b3;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -93,7 +94,14 @@ section a{
 
 section a:hover{
     text-decoration: underline solid #333;
+    color: red;
 }
+
+section ul li:hover{
+    color: red;
+    text-decoration: underline solid red;
+}
+
 
 footer {
     background-color: #003366;
@@ -111,8 +119,8 @@ footer {
 
 @media screen and (max-width:700px) {
     nav a{
-        display: block;
-        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
     }
     
     section img{
@@ -121,9 +129,9 @@ footer {
         margin: 0 auto 15px;
     }
 
-    section{
+    /* section{
         margin: 20px 15px;
-    }
+    } */
 
     div img{
         float: none;
